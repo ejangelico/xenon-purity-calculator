@@ -1,0 +1,57 @@
+38:
+  lifetimes: [7.65, 6.24, 8.78, 5.9] #lifetimes measured
+  errors: [0.15, 0.09, 0.23, 0.16] #errors on lifetimes, index matched
+  sample: "Full SiPM array system"
+  ready: 0 #flag to say that this block for the run is ready to read and analyze, i.e. is filled in. 
+
+39: 
+  lifetimes: [10.56, 7.59, 65.3] #lifetimes measured
+  errors: [0.59, 0.172, 10.09] #errors on lifetimes, index matched
+  time_idx: [None, 1, -1] #the index at which lifetime measurement was made, referencing index of circ and circ_t
+  circ: [10, 0, 0, 18.4, 2.5, 0] #recirc rate g/min. Note, special value 18.4 will trigger duty cycled mode
+  circ_t: [59, 8, 3.5, 20, 18, 8] #hours duration at that recirc speed
+  xe_mass: 11.45 #kg
+  sample: "SMD resistors with solder"
+  ready: 0 #flag to say that this block for the run is ready to read and analyze, i.e. is filled in. 
+
+41:
+  lifetimes: [45.26, 52.47, 91.15, 42.99] #lifetimes measured
+  errors: [10.09, 9.2, 41.44, 19.0] #errors on lifetimes, index matched
+  time_idx: [None, 1, 4, -1] #the index at which lifetime measurement was made, referencing index of circ and circ_t
+  circ: [2.5, 0, 18.4, 2.5, 0, 18.4, 2.5, 0] #recirc rate g/min. Note, special value 18.4 will trigger duty cycled mode
+  circ_t: [16, 8, 15, 7.5, 8, 64, 8, 8] #hours duration at that recirc speed
+  xe_mass: 12.14 #kg
+  sample: "Pin-stack; ceramic pcb, poly pcb, pins, solder"
+  ready: 1 #flag to say that this block for the run is ready to read and analyze, i.e. is filled in. 
+
+42:
+  lifetimes: [24.86, 21.13, 56.58, 55.7] #lifetimes measured (NEED DS04 plz)
+  errors: [5.14, 8.46, 10.95, 12.3] #errors on lifetimes, index matched
+  time_idx: [None, 1, 4, -1] #the index at which lifetime measurement was made, referencing index of circ and circ_t
+  circ: [2.5, 0, 18.4, 2.5, 0, 18.4, 2.5, 0] #recirc rate g/min. Note, special value 18.4 will trigger duty cycled mode
+  circ_t: [16, 8, 15, 8, 8, 48, 8, 8] #hours duration at that recirc speed
+  xe_mass: 12.83 #kg
+  sample: "Sub-D soldered to poly pcb"
+  ready: 1 #flag to say that this block for the run is ready to read and analyze, i.e. is filled in. 
+
+43:
+  lifetimes: [26] #lifetimes measured
+  errors: [11] #errors on lifetimes, index matched
+  time_idx: [None, 2, -1] #the index at which lifetime measurement was made, referencing index of circ and circ_t
+  circ: [18.4, 2.5, 0, 18.4, 2.5, 0, 18.4, 20, 2.5, 0] #recirc rate g/min. Note, special value 18.4 will trigger duty cycled mode
+  circ_t: [16.3, 8, 14.5, 24.25, 8, 17, 5, 18.5, 7.5, 16] #hours duration at that recirc speed
+  xe_mass: 12.67 #kg
+  sample: "Full array of SiPMs epoxied to ceramic PCB"
+  ready: 0 #flag to say that this block for the run is ready to read and analyze, i.e. is filled in. 
+
+
+44:
+  lifetimes: [55.5, 50.53] #lifetimes measured
+  errors: [12.56, 15.85] #errors on lifetimes, index matched
+  time_idx: [None, 2] #the index at which lifetime measurement was made, referencing index of circ and circ_t
+  circ: [18.4, 2.5, 0, 5, 20, 2.5, 0, 0, 20, 2.5, 0, 0] #recirc rate g/min. Note, special value 18.4 will trigger duty cycled mode
+  circ_t: [15.75, 8, 16, 25, 17.5, 8, 1.5, 16, 23.5, 7.5, 1, 14] #hours duration at that recirc speed
+  xe_mass: 12.34 #kg
+  sample: "No sample, control"
+  ready: 1 #flag to say that this block for the run is ready to read and analyze, i.e. is filled in. 
+
